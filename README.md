@@ -19,7 +19,21 @@ DotWhitespace is an esoteric programming language developed by Max Base. It was 
 ..   . . 	   . 
 ```
 
+It is actually equivalent to:
+
+```
+.S.S.SS.SSS.T.S.SS.SSS.
+.S.S.SS.SSS.TT.S.SS.SSS.
+.S.S.SS.SSS.TSS.SSS.SSSS.S.
+..ST.S.SS.SSS.
+..S.S.SS.SSS.
+..SSS.S.
+..SSS.S.S.TSSS.S.
+..SSS.S.STSSS.S
+```
+
 Output:
+
 ```
 1230
 abcd
