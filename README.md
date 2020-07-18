@@ -48,9 +48,22 @@ abcd
 
 There are only three types of commands in this language.
 
+`S` means whitespace character.
+
 - Print to console (String or Number directly or from a variable)
+```
+..S
+```
+
 - Read input from console (not yet developed); __I need help from others.__
+```
+...S
+```
+
 - Variable definition
+```
+.S
+```
 
 ### Operators
 
