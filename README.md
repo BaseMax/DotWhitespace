@@ -67,6 +67,8 @@ There are only three types of commands in this language.
 
 ### Operators
 
+`T` means tab character. (`\t`)
+
 | Syntax  | Operator |
 | ------- | -------- |
 |   T     | +        |
