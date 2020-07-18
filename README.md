@@ -122,7 +122,7 @@ Note: You will not be able to print any characters other than the above.
 
 ### TODO
 
-- Implement *float number**.
+- Implement **float number**.
 - Get filename from argument and reads from file.
 - Display Tree of program.
 - Implement Read Input. (`input()` in python or `scanf()` in c)
