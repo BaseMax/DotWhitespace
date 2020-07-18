@@ -45,13 +45,15 @@ abcd
 ### Operators
 
 | Syntax  | Operator |
-| ---- | ------------- |
-|   T  | + |
-| TT  |  - |
-| TTT  | *  |
-| TTTT  | / |
-| TTTTT  | ^ |
-| TTTTTT  |  % |
+| ------- | -------- |
+|   T     | +        |
+| TT      |  -       |
+| TTT     | *        |
+| TTTT    | /        |
+| TTTTT   | ^        |
+| TTTTTT  |  %       |
+
+Note: There are no parentheses, So the priority of the operators will not support all mathematics expression.
 
 ### Examples
 
