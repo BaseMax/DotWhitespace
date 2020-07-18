@@ -26,7 +26,7 @@ It is actually equivalent to:
 ```
 .S.S.SS.SSS.T.S.SS.SSS.     ; DEFINE abcd ('STR', 'abcd')
 .S.S.SS.SSS.TT.S.SS.SSS.    ; DEFINE abcd ('VAR', 'abcd')
-.S.S.SS.SSS.TSS.SSS.SSSS.S. ;DEFINE abcd ('NUM', 1230)
+.S.S.SS.SSS.TSS.SSS.SSSS.S. ; DEFINE abcd ('NUM', 1230)
 ..ST.S.SS.SSS.              ; PRINT ('VAR', 'abcd')
 ..S.S.SS.SSS.               ; PRINT ('STR', 'abcd')
 ..SSS.S.                    ; PRINT ('NUM', 10)
