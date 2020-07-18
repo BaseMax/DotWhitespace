@@ -4,6 +4,30 @@ DotWhitespace is an esoteric programming language developed by Max Base. It was 
 
 ![DotWhitespace Programming Language](logo.png)
 
+### Hello, World
+
+### Sample Program
+
+```
+. . .  .   .	. .  .   .
+. . .  .   .		. .  .   .
+. . .  .   .	  .   .    . .
+.. 	. .  .   .
+.. . .  .   .
+..   . .
+..   . . .	   . .
+..   . . 	   . 
+```
+
+Output:
+```
+1230
+abcd
+10
+120
+120
+```
+
 ### Examples
 
 - Input: `. . .  .   .\t. .  .   .\n`
