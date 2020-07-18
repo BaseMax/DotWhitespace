@@ -44,6 +44,14 @@ abcd
 120
 ```
 
+## DotWhitespace Commands
+
+There are only three types of commands in this language.
+
+- Print to console (String or Number directly or from a variable)
+- Read input from console (not yet developed); __I need help from others.__
+- Variable definition
+
 ### Operators
 
 | Syntax  | Operator |
