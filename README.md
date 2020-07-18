@@ -86,7 +86,7 @@ Note: There are no parentheses, So the priority of the operators will not suppor
 
 DEFINE abcd ('STR', 'abcd')
 
-- Input: `. . .  .   .\t\t. .  .   .\n``
+- Input: `. . .  .   .\t\t. .  .   .\n`
 
 DEFINE abcd ('VAR', 'abcd')
 
