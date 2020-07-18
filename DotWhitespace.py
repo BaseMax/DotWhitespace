@@ -37,8 +37,8 @@ input+='..   . . \t   . \n'
 commands=input.split('\n')
 commands=list(filter(None, commands))
 variable={}
-#print(input)
-#print(commands)
+## print(input)
+## print(commands)
 def calculate_number(values):
     result=0
     i=0
@@ -68,14 +68,14 @@ def calculate_number(values):
     return result
 
 def parse_number(command):
-    #print('parsing number...')
+    ## print('parsing number...')
     length=len(command)
     j=0
     value=''
     values=[]
     for i in range(length):
         if command[i]=='.':
-            #print('\tINT', j-1)
+            ## print('\tINT', j-1)
             value+=str(j-1)
             j=0
         elif command[i]=='\t':
@@ -88,7 +88,7 @@ def parse_number(command):
                     i+=1
                 else:
                     break
-                #print('j is:', j)
+                ## print('j is:', j)
 
             values.append([value, ops[op]])
             value=''
@@ -96,31 +96,31 @@ def parse_number(command):
         else:
             j+=1
     if j!=0:
-        #print('\tINT', j-1)
+        ## print('\tINT', j-1)
         value+=str(j-1)
         j=0
     if value!='':
         values.append([value, None])
-    #print(value)
-    #print(values)
+    ## print(value)
+    ## print(values)
     return values
     # return value
 
 def parse_string(command):
-    #print('parsing string...')
+    ## print('parsing string...')
     length=len(command)
     j=0
     value=''
     for i in range(length):
         if command[i]=='.':
-            #print('\tCHAR', j+1, chars[j])
+            ## print('\tCHAR', j+1, chars[j])
             value+=chars[j]
             j=0
         elif command[i]=='\t':
             return (value, i)
         else:
             j+=1
-    #print(value)
+    ## print(value)
     # return value
     return (value, i)
 
@@ -136,10 +136,10 @@ def parse_command(command):
     if command.startswith('... '):
         print('READ') # TODO
     elif command.startswith('.. '):
-        #print('print')
-        #print(command[3:])
+        ## print('print')
+        ## print(command[3:])
         command=command[3:]
-        print('PRINT', parse_value(command))
+        # print('PRINT', parse_value(command))
         value=parse_value(command)
         if value[0] == 'VAR':
             try:
@@ -149,16 +149,17 @@ def parse_command(command):
         else:
             print(value[1])
     elif command.startswith('. '):
-        #print('define')
+        ## print('define')
         ident=parse_string(command[2:])
-        #print(ident)
-        #print(command)
-        #print(command[ident[1]+3:])
+        ## print(ident)
+        ## print(command)
+        ## print(command[ident[1]+3:])
         value=parse_value(command[ident[1]+3:])
-        print('DEFINE', ident[0], value)
+        # print('DEFINE', ident[0], value)
         variable[ident[0]]=value
 
 for command in commands:
-    #print(command)
-    #print(parse_command(command))
+    ## print(command)
+    ## print(parse_command(command))
     parse_command(command)
+
