@@ -1,3 +1,6 @@
-..SSS.S.                    ; PRINT ('NUM', 10)
-..SSS.S.S.TSSS.S.           ; PRINT ('NUM', 120) 
-..SSS.S.STSSS.S             ; PRINT ('NUM', 120)
+; PRINT ('NUM', 10)
+..SSS.S.
+; PRINT ('NUM', 120) 
+..SSS.S.S.TSSS.S.
+; PRINT ('NUM', 120)
+..SSS.S.STSSS.S
