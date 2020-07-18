@@ -42,6 +42,17 @@ abcd
 120
 ```
 
+### Operators
+
+| Syntax  | Operator |
+| ---- | ------------- |
+|   T  | + |
+| TT  |  - |
+| TTT  | *  |
+| TTTT  | / |
+| TTTTT  | ^ |
+| TTTTTT  |  % |
+
 ### Examples
 
 - Input: `. . .  .   .\t. .  .   .\n`
