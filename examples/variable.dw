@@ -1,0 +1,6 @@
+; DEFINE abcd ('STR', 'abcd')
+.S.S.SS.SSS.T.S.SS.SSS.
+; DEFINE abcd ('VAR', 'abcd')
+.S.S.SS.SSS.TT.S.SS.SSS.
+; DEFINE abcd ('NUM', 1230)
+.S.S.SS.SSS.TSS.SSS.SSSS.S.
