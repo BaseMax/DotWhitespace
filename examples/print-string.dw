@@ -1,1 +1,2 @@
-..S.S.SS.SSS.               ; PRINT ('STR', 'abcd')
+; PRINT ('STR', 'abcd')
+..S.S.SS.SSS.
