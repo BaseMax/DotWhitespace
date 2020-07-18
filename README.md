@@ -4,30 +4,38 @@ DotWhitespace is an esoteric programming language developed by Max Base. It was 
 
 ### Examples
 
-`. . .  .   .\t. .  .   .\n`
-DEFINE abcd ('STR', 'abcd')
+Input: `. . .  .   .\t. .  .   .\n`
 
-`. . .  .   .\t\t. .  .   .\n``
-DEFINE abcd ('VAR', 'abcd')
+Output: DEFINE abcd ('STR', 'abcd')
 
-`. . .  .   .\t  .   .    . .\n`
-DEFINE abcd ('NUM', 1230)
+Input: `. . .  .   .\t\t. .  .   .\n``
 
-`.. \t. .  .   .\n`
-PRINT ('VAR', 'abcd')
+Output: DEFINE abcd ('VAR', 'abcd')
 
-`.. . .  .   .\n`
-PRINT ('STR', 'abcd')
+Input: `. . .  .   .\t  .   .    . .\n`
 
-`..   . .\n`
-PRINT ('NUM', 10)
+Output: DEFINE abcd ('NUM', 1230)
 
-`..   . . .\t   . .\n`
-PRINT ('NUM', 120)
+Input: `.. \t. .  .   .\n`
 
-`..   . . \t   . \n`
-PRINT ('NUM', 120)
-```
+Output: PRINT ('VAR', 'abcd')
+
+Input: `.. . .  .   .\n`
+
+Output: PRINT ('STR', 'abcd')
+
+Input: `..   . .\n`
+
+Output: PRINT ('NUM', 10)
+
+Input: `..   . . .\t   . .\n`
+
+Output: PRINT ('NUM', 120)
+
+Input: `..   . . \t   . \n`
+
+Output: PRINT ('NUM', 120)
+
 ---------
 
 # Max Base
