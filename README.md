@@ -138,17 +138,20 @@ PRINT ('NUM', 120)
 
 ### Characters supported as string:
 
-`abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+?<>[]{}`
+` abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+?<>[]{}`
 
 Note: You will not be able to print any characters other than the above.
 
 ### TODO
 
 - Implement **float number**.
-- Get filename from argument and reads from file.
 - Display Tree of program.
 - Implement Read Input. (`input()` in python or `scanf()` in c)
-- Adding `whitespace` (\s) as supported character. (e.g: we want to display `Hello, World`, Not `Hello,World`)
+
+# ChangeLog
+
+- [x] 2020-07-23: Get filename from argument and reads from file.
+- [x] 2020-07-23: Adding `whitespace` (\s) as supported character. (e.g: we want to display `Hello, World`, Not `Hello,World`)
 
 ---------
 
