@@ -8,7 +8,7 @@ DotWhitespace is an esoteric programming language developed by Max Base. It was 
 
 ### Hello, World in `.Whitespace`
 
-`$ python DotWhitespace.py examples/hello-world.dw`
+`$ python DotWhitespace.py examples/hello-world.ds`
 
 ```
 .. .        .     .            .            .               ..                       .               .                  .            .    .
@@ -87,6 +87,20 @@ There are only three types of commands in this language.
 | TTTTTT  |  %       |
 
 Note: There are no parentheses, So the priority of the operators will not support all mathematics expression.
+
+### Debug
+
+You can pass `-debug` argument, then you will see debug information in **stout**.
+
+e.g: `$ python DotWhitespace.py examples/hello-world.ds -debug`
+or `$ python DotWhitespace.py -debug examples/hello-world.ds`
+
+Output:
+
+```
+('PRINT', ('STR', 'hello world'))
+hello world
+```
 
 ### Examples
 
