@@ -1,6 +1,39 @@
-; DEFINE abcd ('STR', 'abcd')
-.S.S.SS.SSS.T.S.SS.SSS.
-; DEFINE abcd ('VAR', 'abcd')
-.S.S.SS.SSS.TT.S.SS.SSS.
-; DEFINE abcd ('NUM', 1230)
-.S.S.SS.SSS.TSS.SSS.SSSS.S.
+# DEFINE abc ('STR', 'ccd')
+. . .  .   .	.   .   .    .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abc ('STR', 'abd')
+. . .  .   .	. .  .    .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abd ('VAR', 'abc')
+. . .  .    .		. .  .   .
+# PRINT	 ('VAR', 'abd')
+.. 	. .  .    .
+
+# DEFINE abc ('NUM', 1230)
+. . .  .   .	  .   .    . .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abc ('NUM', 123)
+. . .  .   .	  .   .    .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abc ('NUM', 12)
+. . .  .   .	  .   .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abc ('NUM', 52)
+. . .  .   .	      .   .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
+
+# DEFINE abc ('NUM', 52*12=624)
+. . .  .   .	      .   .			  .   .
+# PRINT	 ('VAR', 'abc')
+.. 	. .  .   .
