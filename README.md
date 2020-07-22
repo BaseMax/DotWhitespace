@@ -32,11 +32,11 @@ Output: `hello world`
 It is actually equivalent to:
 
 ```
-.S.S.SS.SSS.T.S.SS.SSS.     ; DEFINE abcd ('STR', 'abcd')
-.S.S.SS.SSS.TT.S.SS.SSS.    ; DEFINE abcd ('VAR', 'abcd')
+.S.S.SS.SSS.T.S.SS.SSS.     ; DEFINE abcd ('STR', 'abc')
+.S.S.SS.SSS.TT.S.SS.SSS.    ; DEFINE abcd ('VAR', 'abc')
 .S.S.SS.SSS.TSS.SSS.SSSS.S. ; DEFINE abcd ('NUM', 1230)
-..ST.S.SS.SSS.              ; PRINT ('VAR', 'abcd')
-..S.S.SS.SSS.               ; PRINT ('STR', 'abcd')
+..ST.S.SS.SSS.              ; PRINT ('VAR', 'abc')
+..S.S.SS.SSS.               ; PRINT ('STR', 'abc')
 ..SSS.S.                    ; PRINT ('NUM', 10)
 ..SSS.S.S.TSSS.S.           ; PRINT ('NUM', 120) 
 ..SSS.S.STSSS.S             ; PRINT ('NUM', 120)
@@ -46,7 +46,7 @@ Output:
 
 ```
 1230
-abcd
+abc
 10
 120
 120
