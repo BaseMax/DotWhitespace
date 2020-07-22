@@ -1,2 +1,2 @@
-; PRINT ('STR', 'abcd')
-..S.S.SS.SSS.
+# PRINT ('STR', 'abcd')
+..S.S.SS.SSS.SSSS.
