@@ -151,7 +151,7 @@ Note: You will not be able to print any characters other than the above.
 # ChangeLog
 
 - [x] 2020-07-23: Get filename from argument and reads from file.
-- [x] 2020-07-23: Adding `whitespace` (\s) as supported character. (e.g: we want to display `Hello, World`, Not `Hello,World`)
+- [x] 2020-07-23: Adding `whitespace` (\s) as supported character. (e.g: we want to display `Hello World`, Not `HelloWorld`)
 
 ---------
 
