@@ -148,10 +148,15 @@ Note: You will not be able to print any characters other than the above.
 - Display Tree of program.
 - Implement Read Input. (`input()` in python or `scanf()` in c)
 
-# ChangeLog
+### ChangeLog
 
 - [x] 2020-07-23: Get filename from argument and reads from file.
 - [x] 2020-07-23: Adding `whitespace` (\s) as supported character. (e.g: we want to display `Hello World`, Not `HelloWorld`)
+
+### Similar Projects
+
+- https://github.com/BaseMax/MiniCalculatorInterpreter
+- https://github.com/BaseMax/CFG2CNF
 
 ---------
 
