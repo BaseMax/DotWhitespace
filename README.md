@@ -138,7 +138,7 @@ PRINT ('NUM', 120)
 
 ### Characters supported as string:
 
-` abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+?<>[]{}`
+`(space)abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+?<>[]{}`
 
 Note: You will not be able to print any characters other than the above.
 
