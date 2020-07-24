@@ -157,6 +157,8 @@ Note: You will not be able to print any characters other than the above.
 - Implement **float number**.
 - Display Tree of program.
 - Implement Read Input. (`input()` in python or `scanf()` in c)
+- Implement loop (`for` i c)
+- Implement logical operators (`> < >= <= ==` in c)
 
 ### ChangeLog
 
