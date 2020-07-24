@@ -2,7 +2,7 @@
 
 ## DotWhitespace Programming Language
 
-DotWhitespace is an esoteric programming language developed by Max Base. It was released on 17 July 2020. Its name is a reference to whitespace and dot characters. Unlike most programming languages, which ignore or assign little meaning to most whitespace characters, the DotWhitespace interpreter ignores any non-whitespace characters. Only spaces, tabs, dot, and linefeeds have meaning. A consequence of this property is that a Whitespace program can easily be contained within the whitespace characters of a program written in another language, except possibly in languages which depend on spaces for syntax validity such as Python, making the text a polyglot.
+DotWhitespace is an esoteric programming language created by Max Base. It was released on July 17, 2020. Its name refers to the characters of white space and dots. Unlike most programming languages, which ignore most white space characters or give less meaning, the DotWhitespace translator ignores any non-white space character. Only distances, tabs, dots and lines are meaningful. The result of this property is that a Whitespace application can easily be written in another language in the white space characters of an application, unless it is likely to convert the text to multilingual in languages that depend on syntactic validation spaces such as Python.
 
 ![DotWhitespace Programming Language](logo.png)
 
