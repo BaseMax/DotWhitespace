@@ -158,6 +158,13 @@ Note: You will not be able to print any characters other than the above.
 - https://github.com/BaseMax/MiniCalculatorInterpreter
 - https://github.com/BaseMax/CFG2CNF
 
+
+### Acknowledgments
+
+The grammar idea for this language was first taken from **Whitespace**, but these have nothing to do with each other and are different in many ways.
+
+Thanks to Prof. Jeremy Douglass for mentions this to me.
+
 ---------
 
 # Max Base
