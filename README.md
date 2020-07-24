@@ -6,6 +6,8 @@ DotWhitespace is an esoteric programming language developed by Max Base. It was 
 
 ![DotWhitespace Programming Language](logo.png)
 
+(The image will change as soon as new proprietary images are ready)
+
 ### Hello, World in `.Whitespace`
 
 `$ python DotWhitespace.py examples/hello-world.ds`
