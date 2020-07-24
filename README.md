@@ -167,8 +167,6 @@ This language was inspired by [Whitespace](https://en.wikipedia.org/wiki/Whitesp
 
 However DotWhitespace is not a whitespace interpreter, and the grammar is different in many ways.
 
-The grammar idea for this language was first taken from **Whitespace**, but these have nothing to do with each other and are different in many ways.
-
 Thanks to Prof. Jeremy Douglass for mentions this to me.
 
 ---------
