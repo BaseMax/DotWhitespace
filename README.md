@@ -54,6 +54,14 @@ abc
 120
 ```
 
+## Whitespace
+
+This language was inspired by [Whitespace](https://en.wikipedia.org/wiki/Whitespace_(programming_language)).
+
+However DotWhitespace is not a whitespace interpreter, and the grammar is different in many ways.
+
+For example:
+
 ## DotWhitespace Commands
 
 There are only three types of commands in this language.
@@ -163,11 +171,9 @@ Note: You will not be able to print any characters other than the above.
 
 ### Acknowledgments
 
-This language was inspired by [Whitespace](https://en.wikipedia.org/wiki/Whitespace_(programming_language)).
+The grammar idea for this language was first taken from Whitespace, but these have nothing to do with each other and are different in many ways.
 
-However DotWhitespace is not a whitespace interpreter, and the grammar is different in many ways.
-
-Thanks to Prof. Jeremy Douglass for mentions this to me.
+Thanks to Prof. Jeremy Douglass for mentions this to me. https://github.com/BaseMax/DotWhitespace/issues/1
 
 ---------
 
