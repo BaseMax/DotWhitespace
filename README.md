@@ -60,7 +60,7 @@ This language was inspired by [Whitespace](https://en.wikipedia.org/wiki/Whitesp
 
 However DotWhitespace is not a whitespace interpreter, and the grammar is different in many ways.
 
-For example:
+It also has dots, For example:
 
 ## DotWhitespace Commands
 
