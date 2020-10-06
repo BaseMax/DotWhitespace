@@ -8,8 +8,6 @@ DotWhitespace is an esoteric programming language created by Max Base. It was re
 <img width="300px" src="https://user-images.githubusercontent.com/2658040/91645430-37a8ff80-ea5a-11ea-964c-09f218c2a373.png">
 </p>
 
-(The image will change as soon as new proprietary images are ready)
-
 ### Hello, World in `.Whitespace`
 
 `$ python DotWhitespace.py examples/hello-world.ds`
