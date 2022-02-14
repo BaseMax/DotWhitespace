@@ -10,10 +10,18 @@ DotWhitespace is an esoteric programming language created by Max Base. It was re
 
 ### Hello, World in `.Whitespace`
 
+#### From a file
+
 `$ python DotWhitespace.py examples/hello-world.ds`
 
 ```
 .. .        .     .            .            .               ..                       .               .                  .            .    .
+```
+
+#### From standard input
+
+```sh
+$ cat examples/hello-world.ds | python DotWhitespace.py -
 ```
 
 Output: `hello world`

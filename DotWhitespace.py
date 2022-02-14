@@ -156,6 +156,8 @@ def parse(input):
         parse_command(command)
 
 def read(fileName):
+    if fileName == '-':
+        return sys.stdin.read()
     return open(fileName).read()
 
 if __name__ == '__main__':
