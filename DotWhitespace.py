@@ -92,7 +92,6 @@ def parse_number(command):
         i+=1
     if j!=0:
         value+=str(j-1)
-        j=0
     if value!='':
         values.append([value, None])
     if debug:
